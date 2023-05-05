@@ -11,5 +11,6 @@ echo "Minor version: $minorVersion"
 git add gradle.properties
 git commit -m "Bump version to ${minorVersion}"
 git tag -a "${minorVersion}" -m "Version ${minorVersion}"
-
+git remote add origin https://github.com/Vezyn4ik/git_hooks.git
+git push -u origin task4
 read -p "Press enter"
