@@ -24,13 +24,13 @@ war {
     }
 }
 
-task writeVersionProperties {
+/*task writeVersionProperties {
     ant.propertyfile(file: "gradle.properties") {
         entry(key: "minorVersion",
                 value: version)
     }
 }
-build.finalizedBy(writeVersionProperties)
+build.finalizedBy(writeVersionProperties)*/
 
 subprojects {
     sourceCompatibility = 1.11
